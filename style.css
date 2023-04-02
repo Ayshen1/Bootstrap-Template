@@ -112,7 +112,7 @@ body {
     padding: 10px 16px 8px 28px;
     width: 50%;
     margin-left: 5rem;
-    transition: .5;
+    transition: 0.5;
 }
 .box4-item1 button a {
     text-decoration: none;
@@ -183,58 +183,111 @@ button:hover {
     padding: 6px;
     font-size: 25px;
 }
-.box6{
-    padding: 68px 0px 35px 0px;
+.box6 {
+    padding: 68px 0px 0px 0px;
     display: block;
     width: 100%;
 }
-.box6 p{
-    color: #AAAAAA;
-    font-family: 'Poppins', sans-serif;
+.box6 p {
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 1px;
     display: inline-block;
 }
-hr{
+hr {
     display: inline-block;
     width: 6rem;
     color: #5fcf80;
     height: 3px;
     background-color: #5fcf80;
 }
-.box6 h1{
+.box6 h1 {
     color: #37423b;
     font-weight: 700;
     font-size: 38px;
     padding: 7px 0px;
-    
 }
-.box7{
-width: 100%;
+.box7 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 0rem 2rem;
 }
-.box7-item{
+.box7-item {
     width: 32%;
     display: flex;
     flex-direction: column;
+    border: 1px solid #dee2e6;
 }
-.box7-item img{
+.box7-item img {
     width: 100%;
 }
-.box7-item-body{
+.box7-item-body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem;
 }
-.box7-item-footer{
+.box7-item-body p {
+    border: 1px solid #5fcf80;
+    background-color: #5fcf80;
+    color: white;
+    font-size: 14px;
+    padding: 7px 14px;
+}
+.box7-item-body span {
+    color: #37423b;
+    font-weight: 700;
+    font-size: 18px;
+}
+.box7-item-main {
+    padding: 1rem;
+}
+.box7-item-main h3 {
+    color: #37423b;
+    transition: 0.3s;
+    padding-bottom: 13px;
+}
+.box7-item-main p {
+    font-size: 15px;
+    line-height: 21px;
+    color: #777777;
+}
+h3:hover {
+    color: #5fcf80;
+}
+.box7-item-footer {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
-.box7-item-footer img{
+.box7-item-footer img {
     width: 20%;
 }
-.box7-item-footer-right{
+.box7-item-footer-left {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
-
+.box7-item-footer-left p {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5a6c60;
+}
+.box7-item-footer-right {
+    display: flex;
+    flex-direction: row;
+    color: #777777;
+}
+.box7-item-footer-right i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.box7-item-footer-right p {
+    margin-right: 5px;
+}
